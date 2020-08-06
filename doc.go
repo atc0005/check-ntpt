@@ -20,10 +20,12 @@ FEATURES
 
 USAGE
 
-	$ ./ntpt
-	NTP server not specified!
+	$ ./ntpt -h
 
-	Usage:
+	ntpt dev build
+	https://github.com/atc0005/ntpt
+
+	Usage of "ntpt":
 	-s string
 			NTP time server to query (shorthand)
 	-server string
