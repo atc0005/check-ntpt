@@ -92,10 +92,10 @@ Tested using:
 - Flags *not* marked as required are for settings where a useful default is
   already defined.
 
-| Flag         | Required | Default        | Repeat | Possible                                              | Description                                            |
-| ------------ | -------- | -------------- | ------ | ----------------------------------------------------- | ------------------------------------------------------ |
-| `h`, `help`  | No       | `false`        | No     | `h`, `help`                                           | Show Help text along with the list of supported flags. |
-| `s`, `server | **Yes**  | *empty string* | **No** | *one valid IP Address or fully-qualified server name* | NTP server to submit query against.                    |
+| Flag          | Required | Default        | Repeat | Possible                                              | Description                                            |
+| ------------- | -------- | -------------- | ------ | ----------------------------------------------------- | ------------------------------------------------------ |
+| `h`, `help`   | No       | `false`        | No     | `h`, `help`                                           | Show Help text along with the list of supported flags. |
+| `s`, `server` | **Yes**  | *empty string* | **No** | *one valid IP Address or fully-qualified server name* | NTP server to submit query against.                    |
 
 ## Examples
 
