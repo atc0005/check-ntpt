@@ -24,6 +24,7 @@
 
 SHELL = /bin/bash
 
+# Space-separated list of cmd/BINARY_NAME directories to build
 WHAT					= ntpt
 
 # What package holds the "version" variable used in branding/version output?
