@@ -26,6 +26,37 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.1.1] - 2020-10-11
+
+### Added
+
+- Binary release
+  - Built using Go 1.15.2
+  - **Statically linked**
+  - Windows
+    - x86
+    - x64
+  - Linux
+    - x86
+    - x64
+
+### Changed
+
+- Dependencies
+  - `actions/checkout`
+    - `v2.3.1` to `v2.3.3`
+  - `actions/setup-node`
+    - `v2.1.1` to `v2.1.2`
+
+- Add `-trimpath` build flag
+
+### Fixed
+
+- Makefile build options do not generate static binaries
+- Makefile generates checksums with qualified path
+- Typo in README
+- Missing doc comment
+
 ## [v0.1.0] - 2020-08-06
 
 ### Added
@@ -77,5 +108,6 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.1...HEAD
+[v0.1.1]: https://github.com/atc0005/ntpt/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/atc0005/ntpt/releases/tag/v0.1.0
