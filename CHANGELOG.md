@@ -26,6 +26,36 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.1.2] - 2021-07-19
+
+### Overview
+
+- Dependency updates
+- Minor fixes
+- Built using Go 1.16.6
+  - **Statically linked**
+  - Windows (x86, x64)
+  - Linux (x86, x64)
+
+### Added
+
+- Add "canary" Dockerfile to track stable Go releases, serve as a reminder to
+  generate fresh binaries
+
+### Changed
+
+- Swap out GoDoc badge for pkg.go.dev badge
+
+- Dependencies
+  - `Go`
+    - `1.15.2` to `1.16.6`
+  - `actions/checkout`
+    - `v2.3.3` to `v2.3.4`
+  - `actions/setup-node`
+    - `v2.1.2` to `v2.2.0`
+    - update `node-version` value to always use latest LTS version instead of
+      hard-coded version
+
 ## [v0.1.1] - 2020-10-11
 
 ### Added
@@ -108,6 +138,7 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.2...HEAD
+[v0.1.2]: https://github.com/atc0005/ntpt/releases/tag/v0.1.2
 [v0.1.1]: https://github.com/atc0005/ntpt/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/atc0005/ntpt/releases/tag/v0.1.0
