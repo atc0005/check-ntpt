@@ -26,6 +26,26 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.1.3] - 2021-08-09
+
+### Overview
+
+- Dependency updates
+- built using Go 1.16.7
+  - Statically linked
+  - Windows (x86, x64)
+  - Linux (x86, x64)
+
+### Changed
+
+- Dependencies
+  - `Go`
+    - `1.16.6` to `1.16.7`
+  - `actions/setup-node`
+    - update `node-version` value to always use latest LTS version instead of
+      hard-coded version
+    - updated from `v2.2.0` to `v2.4.0`
+
 ## [v0.1.2] - 2021-07-19
 
 ### Overview
@@ -138,7 +158,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.3...HEAD
+[v0.1.3]: https://github.com/atc0005/ntpt/releases/tag/v0.1.3
 [v0.1.2]: https://github.com/atc0005/ntpt/releases/tag/v0.1.2
 [v0.1.1]: https://github.com/atc0005/ntpt/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/atc0005/ntpt/releases/tag/v0.1.0
