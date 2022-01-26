@@ -14,7 +14,11 @@ Network Time Protocol (NTP) client for testing purposes.
   - [Overview](#overview)
   - [Changelog](#changelog)
   - [Requirements](#requirements)
-  - [How to install it](#how-to-install-it)
+    - [Building source code](#building-source-code)
+    - [Running](#running)
+  - [Installation](#installation)
+    - [From source](#from-source)
+    - [Using release binaries](#using-release-binaries)
   - [Configuration](#configuration)
     - [Command-line arguments](#command-line-arguments)
   - [Examples](#examples)
@@ -23,9 +27,8 @@ Network Time Protocol (NTP) client for testing purposes.
 
 ## Project home
 
-See [our GitHub repo](https://github.com/atc0005/ntpt) for the latest
-code, to file an issue or submit improvements for review and potential
-inclusion into the project.
+See [our GitHub repo][repo-url] for the latest code, to file an issue or
+submit improvements for review and potential inclusion into the project.
 
 ## Overview
 
@@ -41,24 +44,34 @@ official release is also provided for further review.
 
 ## Requirements
 
-- Go 1.13+ (for building)
+The following is a loose guideline. Other combinations of Go and operating
+systems for building and running tools from this repo may work, but have not
+been tested.
+
+### Building source code
+
+- Go
+  - see this project's `go.mod` file for *preferred* version
+  - this project tests against [officially supported Go
+    releases][go-supported-releases]
+    - the most recent stable release (aka, "stable")
+    - the prior, but still supported release (aka, "oldstable")
 - GCC
   - if building with custom options (as the provided `Makefile` does)
 - `make`
   - if using the provided `Makefile`
 
-Tested using:
+### Running
 
-- Go 1.14+
-- Windows 10 Version 1909
-  - native
-  - WSL
+- Windows 10
 - Ubuntu Linux 18.04+
 
-## How to install it
+## Installation
 
-1. [Download](https://golang.org/dl/) Go
-1. [Install](https://golang.org/doc/install) Go
+### From source
+
+1. [Download][go-docs-download] Go
+1. [Install][go-docs-install] Go
 1. Clone the repo
    1. `cd /tmp`
    1. `git clone https://github.com/atc0005/ntpt`
@@ -82,6 +95,14 @@ Tested using:
 1. Copy the applicable binary to whatever systems needs to run it
    - if using `Makefile`: look in `/tmp/ntpt/release_assets/ntpt/`
    - if using `go build`: look in `/tmp/ntpt/`
+
+### Using release binaries
+
+1. Download the [latest
+   release](https://github.com/atc0005/ntpt/releases/latest) binaries
+1. Deploy
+   - Place `ntpt` in a location of your choice
+     - e.g., `/usr/local/bin/`
 
 ## Configuration
 
@@ -123,3 +144,15 @@ Offset adjusted time: 2020-08-06 04:28:26.977070412 -0500 CDT m=+0.340829713
 ## References
 
 - <https://github.com/beevik/ntp>
+
+<!-- Footnotes here  -->
+
+[repo-url]: <https://github.com/atc0005/ntpt>  "This project's GitHub repo"
+
+[go-docs-download]: <https://golang.org/dl>  "Download Go"
+
+[go-docs-install]: <https://golang.org/doc/install>  "Install Go"
+
+[go-supported-releases]: <https://go.dev/doc/devel/release#policy> "Go Release Policy"
+
+<!-- []: PLACEHOLDER "DESCRIPTION_HERE" -->
