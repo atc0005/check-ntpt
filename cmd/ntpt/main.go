@@ -18,7 +18,7 @@ import (
 )
 
 // Overridden via Makefile for release builds
-var version string = "dev build"
+var version = "dev build"
 
 // Primarily used with branding
 const myAppName string = "ntpt"
