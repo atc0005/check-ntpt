@@ -26,6 +26,37 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.1.7] - 2022-03-03
+
+### Overview
+
+- Dependency updates
+- CI / linting improvements
+- built using Go 1.17.7
+  - Statically linked
+  - Windows (x86, x64)
+  - Linux (x86, x64)
+
+### Changed
+
+- Dependencies
+  - `Go`
+    - `1.17.6` to `1.17.7`
+  - `actions/checkout`
+    - `v2.4.0` to `v3`
+  - `actions/setup-node`
+    - `v2.5.1` to `v3`
+
+- (GH-68) Expand linting GitHub Actions Workflow to include `oldstable`,
+  `unstable` container images
+- (GH-69) Switch Docker image source from Docker Hub to GitHub Container
+  Registry (GHCR)
+
+### Fixed
+
+- (GH-71) var-declaration: should omit type string from declaration of var
+  (revive)
+
 ## [v0.1.6] - 2022-01-26
 
 ### Overview
@@ -216,7 +247,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.6...HEAD
+[Unreleased]: https://github.com/atc0005/ntpt/compare/v0.1.7...HEAD
+[v0.1.7]: https://github.com/atc0005/ntpt/releases/tag/v0.1.7
 [v0.1.6]: https://github.com/atc0005/ntpt/releases/tag/v0.1.6
 [v0.1.5]: https://github.com/atc0005/ntpt/releases/tag/v0.1.5
 [v0.1.4]: https://github.com/atc0005/ntpt/releases/tag/v0.1.4
