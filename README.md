@@ -23,6 +23,7 @@ Network Time Protocol (NTP) client for testing purposes.
     - [Command-line arguments](#command-line-arguments)
   - [Examples](#examples)
     - [Basic usage](#basic-usage)
+    - [Verbose output](#verbose-output)
   - [References](#references)
 
 ## Project home
@@ -113,32 +114,46 @@ been tested.
 - Flags *not* marked as required are for settings where a useful default is
   already defined.
 
-| Flag          | Required | Default        | Repeat | Possible                                              | Description                                            |
-| ------------- | -------- | -------------- | ------ | ----------------------------------------------------- | ------------------------------------------------------ |
-| `h`, `help`   | No       | `false`        | No     | `h`, `help`                                           | Show Help text along with the list of supported flags. |
-| `s`, `server` | **Yes**  | *empty string* | **No** | *one valid IP Address or fully-qualified server name* | NTP server to submit query against.                    |
+| Flag           | Required | Default        | Repeat | Possible                                              | Description                                             |
+| -------------- | -------- | -------------- | ------ | ----------------------------------------------------- | ------------------------------------------------------- |
+| `h`, `help`    | No       | `false`        | No     | `h`, `help`                                           | Show Help text along with the list of supported flags.  |
+| `s`, `server`  | **Yes**  | *empty string* | **No** | *one valid IP Address or fully-qualified server name* | NTP server to submit query against.                     |
+| `v`, `verbose` | No       | `false`        | **No** | `true`, `false`                                       | Enables display of verbose output. Disabled by default. |
 
 ## Examples
 
 ### Basic usage
 
-```ShellSession
-$ ./ntpt --server ntp.example.com
-Current time from ntp.example.com: 2020-08-06 04:28:26.820043274 -0500 CDT m=+0.183802875
-Response from NTP server "ntp.example.com":
-        Time: 2020-08-06 09:28:26.905991848 +0000 UTC
-        ClockOffset: 31.803212ms
-        RTT: 135.462329ms
-        Stratum: 1
-        ReferenceID: 1196446464
-        ReferenceTime: 2020-08-06 09:28:26.418643103 +0000 UTC
-        RootDelay: 0s
-        RootDispersion: 991.821µs
-        RootDistance: 68.722985ms
+```console
+$ ./ntpt -s pool.ntp.org
+Current time from pool.ntp.org: 2022-08-15 06:16:11.139364388 -0500 CDT m=-0.121229211
+Current time from local system: 2022-08-15 06:16:11.5944353 -0500 CDT m=+0.333841701
+
+The local system is -456.993422ms behind pool.ntp.org.
+```
+
+### Verbose output
+
+```console
+$ ./ntpt -v -s pool.ntp.org
+Current time from pool.ntp.org: 2022-08-15 06:16:41.864305139 -0500 CDT m=-0.193111660
+Current time from local system: 2022-08-15 06:16:42.3228386 -0500 CDT m=+0.265421801
+
+Response from NTP server "pool.ntp.org":
+        Time: 2022-08-15 11:16:41.968756524 +0000 UTC
+        ClockOffset: -459.00146ms
+        RTT: 203.878832ms
+        Stratum: 2
+        ReferenceID: 167864580
+        ReferenceTime: 2022-08-15 11:16:39.020873716 +0000 UTC
+        RootDelay: 213.623µs
+        RootDispersion: 30.518µs
+        RootDistance: 102.076745ms
         Leap: 0
-        MinError: 0s
+        MinError: 357.062044ms
         KissCode: ""
-Offset adjusted time: 2020-08-06 04:28:26.977070412 -0500 CDT m=+0.340829713
+
+Offset adjusted time: 2022-08-15 06:16:42.07080214 -0500 CDT m=+0.013385341
 ```
 
 ## References
