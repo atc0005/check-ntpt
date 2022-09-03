@@ -6,8 +6,10 @@
 # full license information.
 
 # Generated via go build ./cmd/ntpt
-ntpt
-ntpt.exe
+/ntpt
+/ntpt.exe
 
 # Local temporary/scratch space
 /scratch
+
+/release_assets
