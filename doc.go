@@ -1,15 +1,15 @@
 /*
-Network Time Protocol (NTP) client for testing purposes.
+Go-based tooling to monitor Network Time Protocol (NTP) servers.
 
 # Project Home
 
-See our GitHub repo (https://github.com/atc0005/ntpt) for the latest code, to
+See our GitHub repo (https://github.com/atc0005/check-ntpt) for the latest code, to
 file an issue or submit improvements for review and potential inclusion into
 the project.
 
 # Purpose
 
-Perform a NTP query against a specified server for testing purposes.
+Monitor/test Network Time Protocol (NTP) servers.
 
 # Features
 
