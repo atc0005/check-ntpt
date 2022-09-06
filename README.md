@@ -1,15 +1,15 @@
-# ntpt
+# check-ntpt
 
-Network Time Protocol (NTP) client for testing purposes.
+Go-based tooling to monitor Network Time Protocol (NTP) servers.
 
-[![Latest Release](https://img.shields.io/github/release/atc0005/ntpt.svg?style=flat-square)](https://github.com/atc0005/ntpt/releases/latest)
+[![Latest Release](https://img.shields.io/github/release/atc0005/ntpt.svg?style=flat-square)](https://github.com/atc0005/check-ntpt/releases/latest)
 [![Go Reference](https://pkg.go.dev/badge/github.com/atc0005/ntpt.svg)](https://pkg.go.dev/github.com/atc0005/ntpt)
-[![Validate Codebase](https://github.com/atc0005/ntpt/workflows/Validate%20Codebase/badge.svg)](https://github.com/atc0005/ntpt/actions?query=workflow%3A%22Validate+Codebase%22)
-[![Validate Docs](https://github.com/atc0005/ntpt/workflows/Validate%20Docs/badge.svg)](https://github.com/atc0005/ntpt/actions?query=workflow%3A%22Validate+Docs%22)
-[![Lint and Build using Makefile](https://github.com/atc0005/ntpt/workflows/Lint%20and%20Build%20using%20Makefile/badge.svg)](https://github.com/atc0005/ntpt/actions?query=workflow%3A%22Lint+and+Build+using+Makefile%22)
-[![Quick Validation](https://github.com/atc0005/ntpt/workflows/Quick%20Validation/badge.svg)](https://github.com/atc0005/ntpt/actions?query=workflow%3A%22Quick+Validation%22)
+[![Validate Codebase](https://github.com/atc0005/check-ntpt/workflows/Validate%20Codebase/badge.svg)](https://github.com/atc0005/check-ntpt/actions?query=workflow%3A%22Validate+Codebase%22)
+[![Validate Docs](https://github.com/atc0005/check-ntpt/workflows/Validate%20Docs/badge.svg)](https://github.com/atc0005/check-ntpt/actions?query=workflow%3A%22Validate+Docs%22)
+[![Lint and Build using Makefile](https://github.com/atc0005/check-ntpt/workflows/Lint%20and%20Build%20using%20Makefile/badge.svg)](https://github.com/atc0005/check-ntpt/actions?query=workflow%3A%22Lint+and+Build+using+Makefile%22)
+[![Quick Validation](https://github.com/atc0005/check-ntpt/workflows/Quick%20Validation/badge.svg)](https://github.com/atc0005/check-ntpt/actions?query=workflow%3A%22Quick+Validation%22)
 
-- [ntpt](#ntpt)
+- [check-ntpt](#check-ntpt)
   - [Project home](#project-home)
   - [Overview](#overview)
   - [Changelog](#changelog)
@@ -33,7 +33,13 @@ submit improvements for review and potential inclusion into the project.
 
 ## Overview
 
-Perform a NTP query against a specified server for testing purposes.
+Go-based tooling to monitor Network Time Protocol (NTP) servers.
+
+At present, the `ntpt` binary is the only tool provided by this repo. This
+tool performs a NTP query against a specified server for testing purposes.
+
+Future plans include providing one (or more) Nagios plugins to monitor NTP
+servers.
 
 ## Changelog
 
@@ -75,7 +81,7 @@ been tested.
 1. [Install][go-docs-install] Go
 1. Clone the repo
    1. `cd /tmp`
-   1. `git clone https://github.com/atc0005/ntpt`
+   1. `git clone https://github.com/atc0005/check-ntpt`
    1. `cd ntpt`
 1. Install dependencies (optional)
    - for Ubuntu Linux
@@ -100,7 +106,7 @@ been tested.
 ### Using release binaries
 
 1. Download the [latest
-   release](https://github.com/atc0005/ntpt/releases/latest) binaries
+   release](https://github.com/atc0005/check-ntpt/releases/latest) binaries
 1. Deploy
    - Place `ntpt` in a location of your choice
      - e.g., `/usr/local/bin/`
@@ -162,7 +168,7 @@ Offset adjusted time: 2022-08-15 06:16:42.07080214 -0500 CDT m=+0.013385341
 
 <!-- Footnotes here  -->
 
-[repo-url]: <https://github.com/atc0005/ntpt>  "This project's GitHub repo"
+[repo-url]: <https://github.com/atc0005/check-ntpt>  "This project's GitHub repo"
 
 [go-docs-download]: <https://golang.org/dl>  "Download Go"
 
