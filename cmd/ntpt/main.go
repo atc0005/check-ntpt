@@ -37,7 +37,7 @@ const (
 // Flag help text (user visible).
 const (
 	ntpServerFlagHelp     string = "NTP time server to query"
-	verboseOutputFlagHelp string = "Toggles emission of detailed certificate metadata. This level of output is disabled by default."
+	verboseOutputFlagHelp string = "Enables display of verbose output. Disabled by default."
 )
 
 type config struct {
