@@ -28,7 +28,7 @@ SHELL = /bin/bash
 WHAT					= ntpt
 
 # What package holds the "version" variable used in branding/version output?
-#VERSION_VAR_PKG			= $(shell go list .)/config
+#VERSION_VAR_PKG			= $(shell go list -m)/config
 VERSION_VAR_PKG			= main
 
 OUTPUTDIR 				= release_assets
