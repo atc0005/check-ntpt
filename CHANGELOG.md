@@ -26,6 +26,46 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.2.0] - 2022-12-12
+
+### Overview
+
+- Add new flag
+- Bug fixes
+- Dependency updates
+- GitHub Actions Workflows updates
+- built using Go 1.19.4
+  - Statically linked
+  - Windows (x86, x64)
+  - Linux (x86, x64)
+
+### Added
+
+- (GH-84) Simplify default output, add verbose flag to enable emitting current
+  output
+
+### Changed
+
+- Dependencies
+  - `Go`
+    - `1.17.7` to `1.19.4`
+  - `golang.org/x/net`
+    - `v0.0.0-20200707034311-ab3426394381` to `v0.4.0`
+  - `golang.org/x/sys`
+    - `v0.0.0-20210927094055-39ccf1dd6fa6` to `v0.3.0`
+- (GH-88) Update project to Go 1.19
+- (GH-90) Update .gitignore exclusions
+- (GH-91) Update Makefile and GitHub Actions Workflows
+- (GH-93) Rename project from ntpt to check-ntpt
+- (GH-98) Refactor GitHub Actions workflows to import logic
+
+### Fixed
+
+- (GH-83) Update lintinstall Makefile recipe
+- (GH-89) Add missing cmd doc file
+- (GH-102) Fix verbose flag help output
+- (GH-103) Fix Makefile Go module base path detection
+
 ## [v0.1.7] - 2022-03-03
 
 ### Overview
@@ -247,7 +287,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.1.7...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/atc0005/check-ntpt/releases/tag/v0.2.0
 [v0.1.7]: https://github.com/atc0005/check-ntpt/releases/tag/v0.1.7
 [v0.1.6]: https://github.com/atc0005/check-ntpt/releases/tag/v0.1.6
 [v0.1.5]: https://github.com/atc0005/check-ntpt/releases/tag/v0.1.5
