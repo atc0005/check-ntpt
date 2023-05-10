@@ -1,5 +1,5 @@
-github.com/beevik/ntp v0.3.3 h1:9CMHHSnEeLwJy0ePLCDQ3lPBDqIlZOcyTPy2bna2IoI=
-github.com/beevik/ntp v0.3.3/go.mod h1:JN7/74B0Z4GUGO/1aUeRI2adARlfJGUeaJb0y0Wvnf4=
+github.com/beevik/ntp v1.0.0 h1:d0Lgy1xbNNqVyGfvg2Z96ItKcfyn3lzgus/oRoj9vnk=
+github.com/beevik/ntp v1.0.0/go.mod h1:JN7/74B0Z4GUGO/1aUeRI2adARlfJGUeaJb0y0Wvnf4=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
