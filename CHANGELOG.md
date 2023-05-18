@@ -26,6 +26,35 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.0] - 2023-05-18
+
+### Overview
+
+- Add support for generating DEB, RPM packages
+- Build improvements
+- Generated binary changes
+  - filename patterns
+  - compression (~ 66% smaller)
+  - executable metadata
+- built using Go 1.19.9
+  - Statically linked
+  - Windows (x86, x64)
+  - Linux (x86, x64)
+
+### Added
+
+- (GH-128) Generate RPM/DEB packages using nFPM
+- (GH-131) Add version details to Windows executables
+
+### Changed
+
+- (GH-132) Switch to semantic versioning (semver) compatible versioning
+  pattern
+- (GH-133) Makefile: Compress binaries & use fixed filenames
+- (GH-130) Makefile: Refresh recipes to add "standard" set, new
+  package-related options
+- (GH-129) Build dev/stable releases using go-ci Docker image
+
 ## [v0.2.1] - 2023-05-18
 
 ### Overview
@@ -319,7 +348,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.2.1...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.0...HEAD
+[v0.3.0]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.0
 [v0.2.1]: https://github.com/atc0005/check-ntpt/releases/tag/v0.2.1
 [v0.2.0]: https://github.com/atc0005/check-ntpt/releases/tag/v0.2.0
 [v0.1.7]: https://github.com/atc0005/check-ntpt/releases/tag/v0.1.7
