@@ -26,6 +26,38 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.2.1] - 2023-05-18
+
+### Overview
+
+- Bug fixes
+- Dependency updates
+- GitHub Actions workflow updates
+- built using Go 1.19.9
+  - Statically linked
+  - Windows (x86, x64)
+  - Linux (x86, x64)
+
+### Changed
+
+- Dependencies
+  - `Go`
+    - `1.19.4` to `1.19.9`
+  - `beevik/ntp`
+    - `v0.3.0` to `v1.0.0`
+  - `golang.org/x/net`
+    - `v0.4.0` to `v0.10.0`
+  - `golang.org/x/sys`
+    - `v0.3.0` to `v0.8.0`
+- (GH-110) Add Go Module Validation, Dependency Updates jobs
+- (GH-115) Drop `Push Validation` workflow
+- (GH-116) Rework workflow scheduling
+- (GH-118) Remove `Push Validation` workflow status badge
+
+### Fixed
+
+- (GH-124) Update vuln analysis GHAW to use on.push hook
+
 ## [v0.2.0] - 2022-12-12
 
 ### Overview
@@ -287,7 +319,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.2.1...HEAD
+[v0.2.1]: https://github.com/atc0005/check-ntpt/releases/tag/v0.2.1
 [v0.2.0]: https://github.com/atc0005/check-ntpt/releases/tag/v0.2.0
 [v0.1.7]: https://github.com/atc0005/check-ntpt/releases/tag/v0.1.7
 [v0.1.6]: https://github.com/atc0005/check-ntpt/releases/tag/v0.1.6
