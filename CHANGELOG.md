@@ -26,6 +26,33 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.1] - 2023-07-20
+
+### Added
+
+- (GH-161) Add initial automated release notes config
+- (GH-163) Add initial automated release build workflow
+
+### Changed
+
+- Dependencies
+  - `Go`
+    - `1.19.9` to `1.19.11`
+  - `atc0005/go-ci`
+    - `go-ci-oldstable-build-v0.10.5` to `go-ci-oldstable-build-v0.11.5`
+  - `beevik/ntp`
+    - `v1.0.0` to `v1.2.0`
+  - `golang.org/x/net`
+    - `v0.10.0` to `v0.12.0`
+  - `golang.org/x/sys`
+    - `v0.9.0` to `v0.10.0`
+- (GH-148) Update vuln analysis GHAW to remove on.push hook
+
+### Fixed
+
+- (GH-145) Disable depguard linter
+- (GH-152) Restore local CodeQL workflow
+
 ## [v0.3.0] - 2023-05-18
 
 ### Overview
@@ -348,7 +375,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.1...HEAD
+[v0.3.1]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.1
 [v0.3.0]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.0
 [v0.2.1]: https://github.com/atc0005/check-ntpt/releases/tag/v0.2.1
 [v0.2.0]: https://github.com/atc0005/check-ntpt/releases/tag/v0.2.0
