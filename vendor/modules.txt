@@ -1,4 +1,4 @@
-# github.com/beevik/ntp v1.2.0
+# github.com/beevik/ntp v1.3.0
 ## explicit; go 1.13
 github.com/beevik/ntp
 # golang.org/x/net v0.12.0
