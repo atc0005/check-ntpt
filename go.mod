@@ -7,7 +7,7 @@
 
 module github.com/atc0005/ntpt
 
-go 1.19
+go 1.20
 
 require github.com/beevik/ntp v1.3.0
 
