@@ -26,6 +26,30 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.3] - 2023-11-21
+
+### Changed
+
+#### Dependency Updates
+
+- (GH-239) canary: bump golang from 1.20.10 to 1.20.11 in /dependabot/docker/go
+- (GH-209) canary: bump golang from 1.20.7 to 1.20.8 in /dependabot/docker/go
+- (GH-229) canary: bump golang from 1.20.8 to 1.20.10 in /dependabot/docker/go
+- (GH-243) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.13.12 to go-ci-oldstable-build-v0.14.1 in /dependabot/docker/builds
+- (GH-198) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.13.4 to go-ci-oldstable-build-v0.13.5 in /dependabot/docker/builds
+- (GH-200) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.13.5 to go-ci-oldstable-build-v0.13.6 in /dependabot/docker/builds
+- (GH-201) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.13.6 to go-ci-oldstable-build-v0.13.7 in /dependabot/docker/builds
+- (GH-210) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.13.7 to go-ci-oldstable-build-v0.13.8 in /dependabot/docker/builds
+- (GH-217) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.13.8 to go-ci-oldstable-build-v0.13.9 in /dependabot/docker/builds
+- (GH-234) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.13.9 to go-ci-oldstable-build-v0.13.12 in /dependabot/docker/builds
+- (GH-205) ghaw: bump actions/checkout from 3 to 4
+- (GH-208) go.mod: bump golang.org/x/net from 0.14.0 to 0.15.0
+- (GH-226) go.mod: bump golang.org/x/net from 0.15.0 to 0.17.0
+- (GH-242) go.mod: bump golang.org/x/net from 0.17.0 to 0.18.0
+- (GH-203) go.mod: bump golang.org/x/sys from 0.11.0 to 0.12.0
+- (GH-220) go.mod: bump golang.org/x/sys from 0.12.0 to 0.13.0
+- (GH-237) go.mod: bump golang.org/x/sys from 0.13.0 to 0.14.0
+
 ## [v0.3.2] - 2023-08-18
 
 ### Changed
@@ -393,7 +417,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.2...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.3...HEAD
+[v0.3.3]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.3
 [v0.3.2]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.2
 [v0.3.1]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.1
 [v0.3.0]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.0
