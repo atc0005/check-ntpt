@@ -26,6 +26,21 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.5] - 2024-02-19
+
+### Changed
+
+#### Dependency Updates
+
+- (GH-286) canary: bump golang from 1.20.13 to 1.20.14 in /dependabot/docker/go
+- (GH-269) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.14.3 to go-ci-oldstable-build-v0.14.4 in /dependabot/docker/builds
+- (GH-274) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.14.4 to go-ci-oldstable-build-v0.14.5 in /dependabot/docker/builds
+- (GH-276) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.14.5 to go-ci-oldstable-build-v0.14.6 in /dependabot/docker/builds
+- (GH-288) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.14.6 to go-ci-oldstable-build-v0.14.9 in /dependabot/docker/builds
+- (GH-290) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.14.9 to go-ci-oldstable-build-v0.15.0 in /dependabot/docker/builds
+- (GH-282) go.mod: bump golang.org/x/net from 0.20.0 to 0.21.0
+- (GH-281) go.mod: bump golang.org/x/sys from 0.16.0 to 0.17.0
+
 ## [v0.3.4] - 2024-01-19
 
 ### Changed
@@ -434,7 +449,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.4...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.5...HEAD
+[v0.3.5]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.5
 [v0.3.4]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.4
 [v0.3.3]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.3
 [v0.3.2]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.2
