@@ -26,6 +26,24 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.6] - 2024-03-08
+
+### Changed
+
+#### Dependency Updates
+
+- (GH-311) Add todo/release label to "Go Runtime" PRs
+- (GH-302) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.15.2 to go-ci-oldstable-build-v0.15.3 in /dependabot/docker/builds
+- (GH-310) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.15.3 to go-ci-oldstable-build-v0.15.4 in /dependabot/docker/builds
+- (GH-298) canary: bump golang from 1.21.6 to 1.21.7 in /dependabot/docker/go
+- (GH-294) docker: bump atc0005/go-ci from go-ci-oldstable-build-v0.15.0 to go-ci-oldstable-build-v0.15.2 in /dependabot/docker/builds
+- (GH-305) Go Dependency: Bump golang.org/x/net from 0.21.0 to 0.22.0
+- (GH-306) Go Dependency: Bump golang.org/x/sys from 0.17.0 to 0.18.0
+- (GH-307) Go Runtime: Bump golang from 1.21.7 to 1.21.8 in /dependabot/docker/go
+- (GH-300) Update Dependabot PR prefixes (redux)
+- (GH-299) Update Dependabot PR prefixes
+- (GH-297) Update project to Go 1.21 series
+
 ## [v0.3.5] - 2024-02-19
 
 ### Changed
@@ -449,7 +467,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.5...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.6...HEAD
+[v0.3.6]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.6
 [v0.3.5]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.5
 [v0.3.4]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.4
 [v0.3.3]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.3
