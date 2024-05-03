@@ -9,7 +9,7 @@ module github.com/atc0005/ntpt
 
 go 1.20
 
-require github.com/beevik/ntp v1.3.1
+require github.com/beevik/ntp v1.4.1
 
 require (
 	golang.org/x/net v0.24.0 // indirect
