@@ -26,6 +26,20 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.8] - 2024-05-13
+
+### Changed
+
+#### Dependency Updates
+
+- (GH-341) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.20.1 to go-ci-oldstable-build-v0.20.2 in /dependabot/docker/builds
+- (GH-347) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.20.2 to go-ci-oldstable-build-v0.20.3 in /dependabot/docker/builds
+- (GH-349) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.20.3 to go-ci-oldstable-build-v0.20.4 in /dependabot/docker/builds
+- (GH-336) Go Dependency: Bump github.com/beevik/ntp from 1.3.1 to 1.4.1
+- (GH-343) Go Dependency: Bump golang.org/x/net from 0.24.0 to 0.25.0
+- (GH-339) Go Dependency: Bump golang.org/x/sys from 0.19.0 to 0.20.0
+- (GH-344) Go Runtime: Bump golang from 1.21.9 to 1.21.10 in /dependabot/docker/go
+
 ## [v0.3.7] - 2024-04-11
 
 ### Changed
@@ -482,7 +496,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.7...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.8...HEAD
+[v0.3.8]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.8
 [v0.3.7]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.7
 [v0.3.6]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.6
 [v0.3.5]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.5
