@@ -49,7 +49,7 @@ type config struct {
 
 // Branding is responsible for emitting application name, version and origin
 func Branding() {
-	fmt.Fprintf(
+	_, _ = fmt.Fprintf(
 		flag.CommandLine.Output(),
 		"\n%s %s\n%s\n\n",
 		myAppName,
@@ -67,7 +67,7 @@ func flagsUsage() func() {
 
 		Branding()
 
-		fmt.Fprintf(flag.CommandLine.Output(), "Usage of \"%s\":\n",
+		_, _ = fmt.Fprintf(flag.CommandLine.Output(), "Usage of \"%s\":\n",
 			myBinaryName,
 		)
 		flag.PrintDefaults()
