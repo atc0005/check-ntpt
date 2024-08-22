@@ -26,6 +26,27 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.11] - 2024-08-22
+
+### Changed
+
+#### Dependency Updates
+
+- (GH-396) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.21.4 to go-ci-oldstable-build-v0.21.5 in /dependabot/docker/builds
+- (GH-399) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.21.5 to go-ci-oldstable-build-v0.21.6 in /dependabot/docker/builds
+- (GH-400) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.21.6 to go-ci-oldstable-build-v0.21.7 in /dependabot/docker/builds
+- (GH-409) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.21.7 to go-ci-oldstable-build-v0.21.8 in /dependabot/docker/builds
+- (GH-417) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.21.8 to go-ci-oldstable-build-v0.21.9 in /dependabot/docker/builds
+- (GH-408) Go Dependency: Bump golang.org/x/net from 0.27.0 to 0.28.0
+- (GH-404) Go Dependency: Bump golang.org/x/sys from 0.22.0 to 0.23.0
+- (GH-411) Go Dependency: Bump golang.org/x/sys from 0.23.0 to 0.24.0
+- (GH-419) Go Runtime: Bump golang from 1.21.12 to 1.22.6 in /dependabot/docker/go
+- (GH-418) Update project to Go 1.22 series
+
+#### Other
+
+- (GH-402) Push `REPO_VERSION` var into containers for builds
+
 ## [v0.3.10] - 2024-07-10
 
 ### Changed
@@ -530,7 +551,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.10...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.11...HEAD
+[v0.3.11]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.11
 [v0.3.10]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.10
 [v0.3.9]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.9
 [v0.3.8]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.8
