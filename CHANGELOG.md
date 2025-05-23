@@ -26,6 +26,17 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.3.14] - 2025-05-23
+
+### Changed
+
+#### Dependency Updates
+
+- (GH-539) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.22.9 to go-ci-oldstable-build-v0.22.10 in /dependabot/docker/builds
+- (GH-533) Go Dependency: Bump golang.org/x/net from 0.39.0 to 0.40.0
+- (GH-534) Go Dependency: Bump golang.org/x/sys from 0.32.0 to 0.33.0
+- (GH-538) Go Runtime: Bump golang from 1.23.8 to 1.23.9 in /dependabot/docker/go
+
 ## [v0.3.13] - 2025-04-15
 
 ### Changed
@@ -584,7 +595,8 @@ Initial release!
 
 - Makefile driven builds and linting
 
-[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.13...HEAD
+[Unreleased]: https://github.com/atc0005/check-ntpt/compare/v0.3.14...HEAD
+[v0.3.14]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.14
 [v0.3.13]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.13
 [v0.3.12]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.12
 [v0.3.11]: https://github.com/atc0005/check-ntpt/releases/tag/v0.3.11
