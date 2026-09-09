@@ -7,11 +7,11 @@
 
 module github.com/atc0005/ntpt
 
-go 1.23.0
+go 1.26.0
 
 require github.com/beevik/ntp v1.4.3
 
 require (
 	golang.org/x/net v0.40.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
 )
